@@ -16,6 +16,7 @@
 - clonar o SEU repositório para o computador
 - criar uma pasta com seu nome completo
 - desenvolver o código dentro da sua pasta
+- adicionar os arquivos (git add)
 - commitar (git commit)
 - push (git push)
 - confirmar se o commit está no seu repositório (seu_nome/exercicio_js_1)
