@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+
+            var nome;
+            var idade;
+            var sexo;
+            var hvelho;
+            var mvelha;
+            var mnova;
+            var hnovo;
+            var media;
+            var i = 0;
+            var m = 0;
+            var f = 0;
+            var porcentf = 0;
+            var porcentm = 0;
+           
+           
+
+            do {
+                nome[i] = prompt('nome', '');
+                idade[i] = parseFloat((prompt('idade', '')).replace(',', '.'));
+                sexo[i] = prompt('sexo', '');
+
+                i++
+
+
+
+
+            } while (confirm('confirmar?'));
+
+
+            if (sexo = 'masculino') {
+                m++;
+            }
+            if (sexo = 'feminino') {
+                f++;
+
+            }
+
+            if (sexo = 'masculino' && idade > hvelho) {
+                hvelho == idade;
+            }
+
+            porcentf = (f / i) * 100;
+            porcentm = (m / i) * 100;
+
+
+            document.write('<h3>Número de pessoas: ' + i + '</h3>');
+            document.write('Mulheres: ' + f + '<br/>');
+            document.write('Homens: ' + m + '<br/>');
+            document.write('Percentual mulheres: ' + porcentf + '%' + '<br/><br/>');
+            document.write('Percentual homens: ' + porcentm + '%' + '<br/><br/>');
+            document.write('média das idades: ' + media + '<br/><br/>');
+            document.write('Idade do homem mais velho: ' + hvelho + '<br/><br/>');
+            document.write('Idade da mulher mais velha: ' + mvelha + '<br/><br/>');
+            document.write('Idade do homem mais novo ' + hnovo + '<br/><br/>');
+            document.write('Idade da mulher mais nova: ' + mnova + '<br/><br/>');
+            
+
+
+
+        </script>
+    </body>
+</html>
